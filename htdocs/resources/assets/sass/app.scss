@@ -1,0 +1,34 @@
+@import "govuk/toolkit";
+@import "govuk/elements";
+@import "govuk/template";
+@import "skillsforcare/check_your_answers";
+@import "skillsforcare/modal";
+@import "skillsforcare/training_index";
+@import "skillsforcare/f_wizard";
+@import "skillsforcare/f_select_search";
+@import "skillsforcare/f_status_tag";
+
+
+.s-flex {
+  display: flex;
+}
+
+.s-justify-end {
+  justify-content: flex-end;
+}
+
+.s-justify-between {
+  justify-content: space-between;
+}
+
+.site-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.padding-bottom {
+  padding-bottom: 3em;
+}
+
+.breadcrumbs  li {
+  background-image: url('/css/images/separator.png');
+}
